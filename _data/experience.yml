@@ -2,13 +2,28 @@ main:
 
   - type: education
     degreepath: This is a degree path # for type.education.
-    institution: University University
-    department: Lorem Ipsum
+    institution: Columbia University Mailman School of Public Health
+    department:  Epidemiology
+    advisors: Jane Doe, John Doe # for type.education.
+    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    years: 2017 - Present
+    notes: In Progress
+
+  - type: education
+    degreepath: This is a degree path # for type.education.
+    institution: Johns Hopkins Bloomberg School of Public Health
+    department:  Mental Health
     advisors: Jane Doe, John Doe # for type.education.
     thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
     years: 2017 - Present
     notes: In Progress
     
+  - type: job
+    title: Example Job # for type.employment.
+    institution: University University
+    department: Department
+    years: 2024 - Present
+
   - type: job
     title: Example Job # for type.employment.
     institution: University University
