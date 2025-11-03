@@ -4,13 +4,13 @@ layout: homepage
 
 ## About Me
 
-Sean Purcell is a digital health humanist who works at UCSF>
+PhD in Epidemiology from Columbia University. Over 10 years of experience in biostatistics, epidemiology, and manuscript writing. Excel in analyzing large longitudinal data sets, causal inference methods, and academic publications. Degrees in Computer Science, Statistics, and Public Health. Skilled in R, SAS, Python, Shell scripting, C++, working with claims data, and more. Proven track record of successfully working on challenging research projects within a team environment.>
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-- **Digital Health Humanities:** I do things.
+- **Causal Inference:** Causal mediation
+- **Psychiatric Epidemiology:** Adolescent mental health, Housing and homelessness, Substance use 
+
 
 {% include_relative _includes/education.md %}
 
