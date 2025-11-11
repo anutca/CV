@@ -28,16 +28,16 @@ main:
     # notes: In Progress
     
   - type: job
-    title: Example Job # for type.employment.
-    institution: University University
+    title: Postdoctoral Scholar # for type.employment.
+    institution: UCSF Benioff Homelessness and Housing Initiative
     department: Department
     years: 2024 - Present
 
   - type: job
-    title: Example Job # for type.employment.
-    institution: University University
-    department: Department
-    years: 2024 - Present
+    title: Graduate Research Assistant  # for type.employment.
+    institution: New York State Psychiatric Institute 
+    department: Global Psychiatric Epidemiology Group 
+    years: 2023 - 2024
     
   - type: service
     title: A role
