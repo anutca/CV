@@ -4,19 +4,28 @@ main:
     degreepath: This is a degree path # for type.education.
     institution: Columbia University Mailman School of Public Health
     department:  Epidemiology
-    advisors: Jane Doe, John Doe # for type.education.
-    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
-    years: 2017 - Present
-    notes: In Progress
+    advisors: Dr. Kara Rudolph, Dr. Dustin Duncan, Dr. Jeremy Kane 
+    thesis: "Examining the Neighborhood Mechanisms Through Which Voucher Receipt Led to Surprising Long-Term Mental Health Outcomes by Sex in the Moving to Opportunity Experiment – A Causal Mediation Study" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    years: 2018 - 2024
+    # notes: In Progress
 
   - type: education
     degreepath: This is a degree path # for type.education.
     institution: Johns Hopkins Bloomberg School of Public Health
     department:  Mental Health
-    advisors: Jane Doe, John Doe # for type.education.
-    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
-    years: 2017 - Present
-    notes: In Progress
+    advisors: Dr. William. W. Eaton, Dr. Jack F. Samuels # for type.education.
+    thesis: "Antisocial personality and cause-specific mortality: results from the Epidemiologic Catchment Area study with 27 years of follow-up" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    years: 2014 - 2015
+    # notes: In Progress
+
+  - type: education
+    degreepath: This is a degree path # for type.education.
+    institution: University of British Columbia
+    department:  Computer Science and Statistics
+    advisors: 
+    thesis:  # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    years: 2002 - 2018
+    # notes: In Progress
     
   - type: job
     title: Example Job # for type.employment.
