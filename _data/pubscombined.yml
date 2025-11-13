@@ -10,16 +10,14 @@ main: # You can enter in your items in a long list in this form. A few notes: th
     image: ./assets/img/epid.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
     notes:
 
-
-
   - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
     title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
     authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
     pub_abbr: Pub # for type:essay
     publication: Publication # for type:essay
     date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    doi: https://doi.org/10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
+    image: ./assets/img/COVID.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
     notes:
 
   - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
@@ -28,72 +26,192 @@ main: # You can enter in your items in a long list in this form. A few notes: th
     pub_abbr: Pub # for type:essay
     publication: American Journal of Geriatric Psychiatry # for type:essay
     date: 2024
-    doi: 10.1002/gps.6123/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    doi: https://doi.org/10.1002/gps.6123/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
+    image: ./assets/img/Depression.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
     notes:
 
-
-
-
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
+  - type: essay
+    title: "HIV status and substance use disorder treatment need and utilization among adults in the United States, 2015-2019: Implications for healthcare service provision and integration"
+    authors: Brooke, S., <strong>Krasnova, A.</strong>, Philbin, M.M., Diaz, J. E., Kane, J., & Mauro, P.M.
+    pub_abbr: J Subst Abuse Treat
+    publication: Journal of Substance Abuse Treatment
     date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    doi: https://doi.org/10.1016/j.josat.2024.209440
+    image: ./assets/img/HIV.png
     notes:
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+  - type: essay
+    title: "Time-lagged associations between two adverse childhood experiences and later-life cognitive function through educational attainment and stroke"
+    authors: Kraal, A., Zaheed, A., <strong>Krasnova, A.</strong>, Vadari, H., Byrd, & D., Zahodne, L.
+    pub_abbr: J Int Neuropsychol Soc
+    publication: Journal of the International Neuropsychological Society
+    date: 2023
+    doi: https://doi.org/10.1017/S135561772300036X
+    image: ./assets/img/Kraal.png
     notes:
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+  - type: essay
+    title: "Direct Effect of Life-Course Socioeconomic Status on Late-Life Cognition and Cognitive Decline in the Rush Memory and Aging Project"
+    authors: <strong>Krasnova, A.</strong>, Tom, S.E., Valieri L., Crane, P.K., & Bennett, D.A.
+    pub_abbr: Am J Epidemiol
+    publication: American Journal of Epidemiology
+    date: 2023
+    doi: https://doi.org/10.1093/aje/kwad033
+    image: ./assets/img/SES.png
     notes:
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+  - type: essay
+    title: "Disparities in substance use disorder treatment use and perceived need by sexual identity and gender among adults in the United States"
+    authors: <strong>Krasnova, A.</strong>, Diaz, J. E., Philbin, M.M., & Mauro, P.M.
+    pub_abbr: Drug Alcohol Depend
+    publication: Drug and Alcohol Dependence
+    date: 2021
+    doi: https://doi.org/10.1016/j.drugalcdep.2021.108828
+    image: ./assets/img/SUD.png
     notes:
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+  - type: essay
+    title: "Risk of dementia following androgen deprivation therapy for treatment of prostate cancer"
+    authors: <strong>Krasnova, A.</strong>, Epstein, M., Marchese, M., Dickerman, B.A., Cole, A.P., Lipsitz, S.R., Nguyen, P.L., Kibel, A.S., Choueiri, T.K., Basaria, S., Mucci, L.A., Sun, M., & Trinh, Q.D.
+    pub_abbr: Prostate Cancer Prostatic Dis
+    publication: Prostate Cancer and Prostatic Diseases
+    date: 2019
+    doi: https://doi.org/10.1038/s41391-019-0189-3
+    image: ./assets/img/Dementia.png
     notes:
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Racial, Ethnic, and Socioeconomic Disparities in COVID-19 Pandemic Worries"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: 10.1007/s40615-024-02093-y/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+  - type: essay
+    title: "Recommended cancer screening in Accountable Care Organizations: trends in colonoscopy and mammography in the Medicare Shared Savings Program"
+    authors: Cole, A.P., <strong>Krasnova, A.</strong>, Ramaswamy, A., Fletcher, S.A., Friedlander, D.F., McNabb-Baltar, J., Melnitchouk, N., Lipsitz, S.R., Sun, M., Kibel, A.S., Golshan, M., Haider, A.H., Weissman, J.S., & Trinh, Q.D.
+    pub_abbr: J Oncol Pract
+    publication: Journal of Oncology Practice
+    date: 2019
+    doi: https://doi.org/10.1200/JOP.18.00352
+    image: ./assets/img/ACO.png
     notes:
+
+  - type: essay
+    title: "Prostate cancer in the Medicare Shared Savings Program: are accountable care organizations associated with reduced expenditures for men with prostate cancer?"
+    authors: Cole, A.P., <strong>Krasnova, A.</strong>, Ramaswamy, A., Friedlander, D. F., Fletcher, S.A., Sun, M., Choueiri, T.K., Weissman, J.S., Kibel, A.S., & Trinh, Q.D.
+    pub_abbr: Prostate Cancer Prostatic Dis
+    publication: Prostate Cancer and Prostatic Diseases
+    date: 2019
+    doi: https://doi.org/10.1038/s41391-019-0138-1
+    image: ./assets/img/prostate.png
+    notes:
+
+  - type: essay
+    title: "Antisocial personality and cause-specific mortality: results from the Epidemiologic Catchment Area study with 27 years of follow-up"
+    authors: <strong>Krasnova, A.</strong>, Eaton, W.W., & Samuels, J.F.
+    pub_abbr: Soc Psychiatry Psychiatr Epidemiol
+    publication: Journal of Social Psychiatry and Psychiatric Epidemiology
+    date: 2019
+    doi: https://doi.org/10.1007/s00127-018-1628-5
+    image: ./assets/img/ASPD.png
+    notes:
+
+  - type: essay
+    title: "Impact of Accountable Care Organizations on prostate cancer screening and biopsies in the United States"
+    authors: Trinh, Q.D., Sun, M., <strong>Krasnova, A.</strong>, Ramaswamy, A., Cole, A.P., Fletcher, S.A., Friedlander, D.F., Sammon, J.D., Lipsitz, S.R., Kibel, A.S., and Weissman, J.S.
+    pub_abbr: Urol Pract
+    publication: Urology Practice
+    date: 2019
+    doi: https://doi.org/10.1016/j.urpr.2018.07.003
+    image: ./assets/img/prostate_cancer.png
+    notes:
+
+  - type: essay
+    title: "Liver disease in men undergoing androgen deprivation therapy for prostate cancer"
+    authors: Gild, P., Cole, A.P., <strong>Krasnova, A.</strong>, Dickerman, B., Landenberg, N., Sun, M., Mucci, L.A., Lipsitz, S.R., Chun, F.K., Nguyen, P.L., Kibel, A.S., Choueiri, T.K., Basaria, S., and Trinh, Q.D.
+    pub_abbr: J Urol
+    publication: Journal of Urology
+    date: 2018
+    doi: https://doi.org/10.1016/j.juro.2018.03.135
+    image: ./assets/img/liver.png
+    notes:
+
+  - type: essay
+    title: "Androgen deprivation therapy and risk of rheumatoid arthritis in patients with localized prostate cancer"
+    authors: Yang, D.D., <strong>Krasnova, A.</strong>, Nead, K.T., Choueiri, T.K., Hu, J.C., Hoffman, K.E., Yu, J.B., Spratt, D.E., Feng, F.Y., Trinh, Q.D., and Nguyen, P.L.
+    pub_abbr: Ann Oncol
+    publication: Annals of Oncology
+    date: 2018
+    doi: https://doi.org/10.1093/annonc/mdx744
+    image: ./assets/img/androgen.png
+    notes:
+
+  - type: essay
+    title: "End-of-life care in older patients after serious or severe traumatic brain injury in low-mortality hospitals compared with all other hospitals"
+    authors: Lilley, E.J., Scott, J.W., Weissman, J.S., <strong>Krasnova, A.</strong>, Salim, A., Haider, A.H., and Cooper, Z.
+    pub_abbr: JAMA Surg
+    publication: JAMA Surgery
+    date: 2018
+    doi: https://doi.org/10.1001/jamasurg.2017.3148
+    image: ./assets/img/TBI.png
+    notes:
+
+  - type: essay
+    title: "Variation in the use of active surveillance for low-risk prostate cancer"
+    authors: Löppenberg, B., Friedlander, D.F., <strong>Krasnova, A.</strong>, Tam, A., Leow, J.J., Nguyen, P.L., Barry, H., Lipsitz, S.R., Menon, M., Abdollah, F., Sammon, J.D., Sun, M., Choueiri, T.K., Kibel, A.S., and Trinh, Q.D.
+    pub_abbr: Cancer
+    publication: Cancer
+    date: 2018
+    doi: https://doi.org/10.1002/cncr.30983
+    image: ./assets/img/surveillance.png
+    notes:
+
+  - type: essay
+    title: "Racial disparity in delivering definitive therapy for intermediate/high-risk localized prostate cancer: the impact of facility features and socioeconomic characteristics"
+    authors: Friedlander, D.F., Trinh, Q.D., <strong>Krasnova, A.</strong>, Sun, M., Nguyen, P.L., Kibel, A.S., Choueiri, T.K., Weissman, J.S., Menon, M., and Abdollah, F.
+    pub_abbr: Eur Urol
+    publication: European Urology
+    date: 2017
+    doi: https://doi.org/10.1016/j.eururo.2017.07.023
+    image: ./assets/img/racial_disp.png
+    notes:
+
+  - type: essay
+    title: "Intraoperative cholangiography during cholecystectomy among hospitalized medicare beneficiaries with non-neoplastic biliary disease"
+    authors: Lilley, E.J., Scott, J.W., Jiang, W., <strong>Krasnova, A.</strong>, Raol, N., Changoor, N., Salim, A., Haider, A.H., Weissman, J.S., Schneider E.B., and Cooper Z.
+    pub_abbr: Am J Surg
+    publication: The American Journal of Surgery
+    date: 2017
+    doi: https://doi.org/10.1016/j.amjsurg.2017.06.021
+    image: ./assets/img/billiary.png
+    notes:
+
+  - type: essay
+    title: "Morbidity and mortality of locally advanced prostate cancer: a population-based analysis comparing radical prostatectomy versus external beam radiation"
+    authors: Feldman, A.S., Meyer, C.P., Sanchez, A., <strong>Krasnova, A.</strong>, Reznor, G., Menon, M., Kibel, A.S., Choueiri, T.K., Lipsitz, S.R., Sun, M., and Trinh, Q.D.
+    pub_abbr: J Urol
+    publication: The Journal of Urology
+    date: 2017
+    doi: https://doi.org/10.1016/j.juro.2017.05.073
+    image: ./assets/img/morbidity.png
+    notes:
+
+  - type: essay
+    title: "Accountable care organizations and the use of cancer screening"
+    authors: Meyer, C.P., <strong>Krasnova, A.</strong>, Sammon, J.D., Lipsitz, S.R., Weissman, J.S., Sun, M., and Trinh, Q.D.
+    pub_abbr: Prev Med
+    publication: Preventive Medicine
+    date: 2017
+    doi: https://doi.org/10.1016/j.ypmed.2017.05.017
+    image: ./assets/img/ACO_screening.png
+    notes:
+
+  - type: essay
+    title: "Risk of small bowel obstruction after robot-assisted versus open radical prostatectomy"
+    authors: Loeb, S., Meyer, C., <strong>Krasnova A.</strong>, Curnyn, C., Reznor, G., Lepor, H., Kibel, A.S., and Trinh, Q.D.
+    pub_abbr: J Endourol
+    publication: Journal of Endourology
+    date: 2016
+    doi: https://doi.org/10.1089/end.2016.0206
+    image: ./assets/img/bowel.png
+    notes:
+
+
+  
 
 
     
